@@ -84,7 +84,7 @@ for item in client.dataset(run.default_dataset_id).iterate_items():
 
 | Field | Type | Required | Default | Allowed values |
 |---|---|---|---|---|
-| `category` | string | yes | `"general-contractor"` | `architect`, `carpenter`, `custom-closet-designers`, `design-build`, `electrical-contractors`, `general-contractor`, `handyman`, `home-builders`, `hvac-contractors`, `interior-designer`, `kitchen-and-bath-remodelers`, `kitchen-remodelers`, `landscape-architect`, `landscape-contractors`, `painters`, `plumbing-contractors`, `pools-and-spas`, `roofing-and-gutter`, `solar-energy-contractors`, `tile-and-stone-contractors` |
+| `category` | string | yes | `"general-contractor"` | `general-contractor`, `interior-designer`, `architect`, `landscape-architect`, `landscape-contractors`, `kitchen-and-bath-remodelers`, `kitchen-remodelers`, `home-builders`, `electrical-contractors`, `plumbing-contractors`, `hvac-contractors`, `roofing-and-gutter`, `painters`, `handyman`, `carpenter`, `design-build`, `solar-energy-contractors`, `pools-and-spas`, `custom-closet-designers`, `tile-and-stone-contractors` |
 | `location` | string | no | — | — |
 | `maxResults` | integer | no | `200` | — |
 | `maxPages` | integer | no | `20` | — |
